@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['human']
+
+roboflow:
+  workspace: hw2-uejpy
+  project: falldown2-jlooa
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hw2-uejpy/falldown2-jlooa/dataset/1
